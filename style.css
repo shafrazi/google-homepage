@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  font-size: 13px;
+}
+
+li {
+  display: inline;
+  padding-right: 15px;
+}
+
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+
+}
+
+.nav-button {
+  background-color: #4285f4;
+  color: white;
+  padding: 7px 12px 7px 12px;
+  border-radius: 2px;
+  font-weight: bold;
+
+}
+
+.navbar {
+  float: right;
+}
+
+.logo {
+  height: 92px;
+  width: 272px;
+}
+
+.google-image {
+  display: block;
+  text-align: -webkit-center;
+  padding-top: 200px;
+}
+
+.app-image {
+  width: 15px;
+  height: 15px;
+  opacity: 0.55;
+  vertical-align: middle;
+}
+
+.search-form {
+  display: block;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form-buttons {
+  display: block;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.form-input {
+  display: inline-block;
+  width: 560px;
+  height: 34px;
+  text-align: center;
+}
