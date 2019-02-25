@@ -65,9 +65,65 @@ li a {
   text-align: center;
 }
 
+.search-button {
+  background-color: #f1f1f1;
+  border: none;
+  color: grey;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 3px;
+}
+
 .form-input {
   display: inline-block;
   width: 560px;
-  height: 34px;
+  height: 40px;
   text-align: center;
+  border: 1px solid lightgrey;
+  box-shadow: 0px 3px 10px -5px;
+}
+
+.form-input:hover {
+  box-shadow: 0px 4px 4px -4px;
+}
+
+.language-options {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.language-text {
+  text-decoration: none;
+  color: #1a0dab;
+}
+
+.language-text:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: left;
+  display: flex;
+  flex-basis: auto;
+  justify-content: space-between;
+  width: 100%;
+  flex-flow: row;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+  line-height: 40px;
+  color: rgba(0,0,0,.54);
 }
