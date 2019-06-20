@@ -42,6 +42,7 @@ li a {
 
 .google-image {
   display: block;
+  margin: auto;
   text-align: -webkit-center;
   padding-top: 200px;
 }
